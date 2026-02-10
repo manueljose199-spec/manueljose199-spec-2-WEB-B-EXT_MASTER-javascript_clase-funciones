@@ -151,4 +151,38 @@ console.log(crearFibonacci(10)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
 //---------------------------------------------------------------------------------
 
+//---------------------------------------------------------------------------------
 
+//---------------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------------
+
+
+//Practica de campus 
+
+
+// Arreglos para guardar los libros leídos
+let librosLeidos = [];
+
+// Función para agregar un libro
+function agregarLibro(titulo) {
+    librosLeidos.push(titulo);
+}
+
+// Función para mostrar los libros leídos
+function mostrarLibrosLeidos() {
+    console.log("Libros leídos:");
+    for (let i = 0; i < librosLeidos.length; i++) {
+        console.log((i + 1) + ". " + librosLeidos[i]);
+    }
+}
+
+// Pruebas
+agregarLibro("Cien años de soledad");
+agregarLibro("El principito");
+agregarLibro("1984");
+agregarLibro("Introducción a la programación");
+
+mostrarLibrosLeidos();
